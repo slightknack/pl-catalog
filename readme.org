@@ -399,3 +399,15 @@ A safe, extensible, layered programming language that runs on top of JavaScript
 Asterius is a Haskell to WebAssembly compiler based on GHC.
 
 #+BEGIN_HTML </details> #+END_HTML
+
+** [[https://github.com/vrtbl/passerine/][Passerine]]
+
+#+BEGIN_HTML
+
+<img src="https://raw.githubusercontent.com/vrtbl/passerine/master/Logotype.svg" width=100px />
+
+#+END_HTML
+
+Passerine is a small extensible programming language designed for concise expression with little code. Passerine has roots in Scheme and ML-flavored languages: at its core, it's lambda-calculus with pattern-matching, structural ADTs, effect-based concurrency, and syntactic extension.
+
+Currently in early stages of development, Passerine has a 3 compilers at varying stages of completeness: one written in Rust, andother D, and yes, even one in Passerine itself. It can target Wasm, its own compact bytecode format, the D language, JS, and native code, among other things.
